@@ -1,0 +1,136 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    z-index: 10;
+}
+
+.header__left {
+    width: 160px;
+    height: 28px;
+    margin-left: 54px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header__right {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    width: 817px;
+    height: 70px;
+    padding: 0 24px;
+    border-radius: 54px;
+    background-color: white;
+    margin: 0 22px;
+}
+
+.header__list-link {
+    display: flex;
+    align-items: center;
+}
+
+.header__item-link {
+    color: #000;
+    font-feature-settings: 'ss01' on;
+    font-family: "Be Vietnam Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: var(--padding-vertical-header-item) var(--padding-horizontal-header-item);
+}
+
+.header__list-icon {
+    display: flex;
+    align-items: center;
+}
+
+.header__sub-icon {
+    display: none;
+}
+
+.header__item-icon {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.header__item-img {
+    width: 16px;
+    height: 16px;
+}
+
+.header__item-icon--quantity {
+    position: relative;
+}
+
+.header__item-icon--quantity::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    content: "22";
+    position: absolute;
+    top: 16px;
+    right: 0px;
+    width: 18px;
+    height: 18px;
+    background: #0F61FF;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: -0.1px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.10);
+    color: white;
+    font-size: 10px;
+    font-style: normal;
+}
+
+/* Mobile */
+@media (max-width: 490px) {
+    .header {
+        min-height: 71px;
+    }
+
+    .header__left {
+        width: 101px;
+        height: 18px;
+        margin-left: 21px;
+    }
+
+    .header__right {
+        width: 202px;
+        height: 47px;
+        padding: 0 8px;
+    }
+
+    .header__list-link {
+        display: none;
+    }
+
+    .header__item-link {}
+
+    .header__list-icon {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header__sub-icon {
+        display: block;
+        padding: 16px;
+    }
+
+    .header__item-icon {}
+
+    .header__item-img {}
+
+    .header__item-icon--quantity {}
+
+    .header__item-icon--quantity::after {}
+}

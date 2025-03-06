@@ -1,0 +1,22 @@
+.wrap {
+    padding: 48px 0 64px 0;
+}
+
+.wrap--sellers {}
+
+.wrap--category {
+    background-color: #F6F6F6;
+    padding-top: 88px;
+    padding-bottom: 88px;
+}
+
+.wrap--collection {
+    padding-top: 133px;
+}
+
+
+@media (max-width: 490px) {
+    .wrap--sellers {
+        padding: 48px 23px 64px 22px;
+    }
+}

@@ -1,0 +1,62 @@
+.product-card {
+    text-align: center;
+    background-color: #f7f7f8;
+    background-clip: content-box;
+    border-radius: 28px;
+}
+
+.product-card__img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 28px;
+    object-fit: contain;
+    padding-top: 30px;
+}
+
+.product-card__title {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Be Vietnam Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.16px;
+    padding: 8px 0;
+}
+
+.product-card__price {
+    color: #1E232B;
+    font-family: "Be Vietnam Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* 88888888888888888888 */
+
+.product-card__title--number {
+    color: gray;
+    margin-top: var(--margin-product-title);
+}
+
+.product-card__title--text {
+    max-width: 60%;
+    margin-bottom: var(--margin-product-title);
+}
+
+.product-card__title--number,
+.product-card__title--text {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+/* Mobile nhỏ */
+@media (max-width: 490px) {
+    .product-card__price {
+        padding-bottom: 15px;
+    }
+}

@@ -1,0 +1,55 @@
+.mp-48 {
+    padding-top: 48px;
+}
+
+.mb-10 {
+    margin-top: 20px
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.reset-p-mt {
+    padding: 0;
+    margin-top: 0;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+/* background */
+.bg-gray {
+    background-color: #F6F6F6;
+}
+
+.color-white {
+    color: white;
+}
+
+.maxwidth-260 {
+    max-width: 260px;
+}
+
+
+/* new code */
+/* hide/display responsive */
+.hide-for-pc {
+    display: none;
+}
+
+@media (max-width: 490px) {
+    .hide-for-pc {
+        display: block;
+    }
+
+    .hide-for-mobile {
+        display: none;
+    }
+}
+
+/* color */
+.c-white {
+    color: white;
+}

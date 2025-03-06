@@ -1,0 +1,168 @@
+.customer {
+    min-height: 564px;
+    /* background-color: gray; */
+    position: relative;
+    min-width: 80vw;
+}
+
+.customer__title {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 98%;
+    letter-spacing: -2.1px;
+    max-width: 240px;
+}
+
+.customer__img {
+    border-radius: 50%;
+}
+
+.customer__item {
+    position: absolute;
+}
+
+.customer__item--1 {
+    left: 11.25%;
+    /* 216px -> 11.25% của 1920px */
+    top: 54.96%;
+    /* 312px -> 54.96% của 564px */
+}
+
+.customer__item--2 {
+    left: 28.44%;
+    /* 546px -> 28.44% của 1920px */
+    top: 27.48%;
+    /* 155px -> 27.48% của 564px */
+}
+
+.customer__item--3 {
+    left: 27.08%;
+    /* 520px -> 27.08% của 1920px */
+    top: 74.47%;
+    /* 420px -> 74.47% của 564px */
+}
+
+.customer__item--4 {
+    left: 38.90%;
+    /* 747px -> 38.90% của 1920px */
+    top: 52.66%;
+    /* 297px -> 52.66% của 564px */
+}
+
+.customer__item--4::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -21px;
+    right: -18px;
+    bottom: -20px;
+    filter: blur(32px);
+    z-index: -1;
+    border-radius: 82px;
+    background: rgba(19, 90, 178, 0.5);
+}
+
+.customer__item--5 {
+    left: 80.73%;
+    /* 1550px -> 80.73% của 1920px */
+    top: 37.94%;
+    /* 214px -> 37.94% của 564px */
+}
+
+.customer__item--6 {
+    left: 73.54%;
+    /* 1412px -> 73.54% của 1920px */
+    top: 63.83%;
+    /* 360px -> 63.83% của 564px */
+}
+
+.customer__item--7 {
+    left: 54.58%;
+    /* 1048px -> 54.58% của 1920px */
+    top: 59.04%;
+    /* 333px -> 59.04% của 564px */
+}
+
+.customer__item--message {
+    left: 45.31%;
+    /* 870px -> 45.31% của 1920px */
+    top: 18.97%;
+    /* 107px -> 18.97% của 564px */
+    padding: 34px;
+    max-width: 479px;
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+    background: #F6F6F6;
+    border-radius: 20px;
+}
+
+.customer__content {
+    overflow: hidden;
+    color: #1E1E1E;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 105%;
+    /* 21px */
+    letter-spacing: -0.2px;
+}
+
+.customer__author {
+    color: gray;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* 22.1px */
+    letter-spacing: -0.34px;
+}
+
+
+@media (max-width: 490px) {
+    .customer__item--2 {
+        left: 11.25%;
+        /* 216px -> 11.25% của 1920px */
+        top: 40.96%;
+        /* 312px -> 54.96% của 564px */
+    }
+
+    .customer__item--4 {
+        left: 12.44%;
+        /* 546px -> 28.44% của 1920px */
+        top: 90%;
+        /* 155px -> 27.48% của 564px */
+    }
+
+    .customer__item--3 {
+        left: 27.08%;
+        /* 520px -> 27.08% của 1920px */
+        top: 74.47%;
+        /* 420px -> 74.47% của 564px */
+    }
+
+    .customer__item--5 {
+        left: 80.73%;
+        /* 1550px -> 80.73% của 1920px */
+        top: 37.94%;
+        /* 214px -> 37.94% của 564px */
+    }
+
+    .customer__item--message {
+        left: 34.31%;
+        top: 55.97%;
+        max-width: 60vw;
+    }
+
+    .customer__item--7 {
+        left: 70.58%;
+        /* 1048px -> 54.58% của 1920px */
+        top: 94.04%;
+        /* 333px -> 59.04% của 564px */
+    }
+}

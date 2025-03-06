@@ -1,0 +1,122 @@
+.banner {
+    position: relative;
+}
+
+.banner--main {}
+
+
+.banner__img--full-h {
+    min-height: 100vh;
+}
+
+.banner__content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 80%;
+}
+
+.banner__text {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    position: absolute;
+}
+
+.banner__text--main {
+    font-size: 213px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-weight: 500;
+    letter-spacing: -17.04px;
+}
+
+/* banner seller */
+.banner--seller {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: auto;
+}
+
+
+.banner__img--seler {
+    width: 100%;
+    height: auto;
+}
+
+.banner__link {
+    width: 124px;
+    height: 46px;
+    padding: 16px 24px;
+    color: white;
+    border-radius: 56px;
+    background-color: #0F61FF;
+    text-align: center;
+    font-family: "Be Vietnam Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+}
+
+@media (max-width: 490px) {
+    .banner__img {
+        height: 100vh;
+        object-position: 50%;
+    }
+
+    .banner__img--seler {
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .banner__img--sub {
+        height: auto;
+        width: 100%;
+    }
+
+    .banner__content--sub-banner {
+        transform: none;
+        top: 4%;
+        min-height: 70%;
+    }
+
+    .banner__text {
+        color: #FFF;
+        font-family: "Be Vietnam Pro";
+        font-size: 73px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 66px;
+        padding-bottom: 28px;
+        letter-spacing: -5.84px;
+    }
+
+    .banner--seller {
+        /* background-image: var(--img-banner3); */
+    }
+
+    .banner__img-mini {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner__text--mini {
+        font-size: 37px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 98%;
+        letter-spacing: -1.85px;
+        top: 0;
+        text-align: left;
+        padding: 33px 42px;
+    }
+}

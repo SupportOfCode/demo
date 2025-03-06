@@ -1,0 +1,19 @@
+.colection-card {
+    position: relative;
+}
+
+.colection-card__info {
+    position: absolute;
+    top: 0;
+    padding: 30px;
+}
+
+.colection-card__button {
+    margin-top: 40px;
+}
+
+@media (max-width: 490px) {
+    .colection-card__title {
+        color: white;
+    }
+}

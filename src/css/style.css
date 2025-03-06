@@ -1,0 +1,35 @@
+/* layout */
+@import url(../css/layout/grid.css);
+
+/* abstract */
+@import url(../css/abstracts/variables.css);
+
+/* base */
+@import url(../css/base/reset.css);
+
+/* component */
+@import url(../css/component/header/header.css);
+@import url(../css/component/banner/banner.css);
+@import url(../css/component/card/product-card.css);
+@import url(../css/component/card/category-card.css);
+@import url(../css/component/card/collection-card.css);
+@import url(../css/component/card/mini-card.css);
+@import url(../css/component/various/various-color/various-color.css);
+@import url(../css/component/deco/customer-list/customer-list.css);
+@import url(../css/component/title/title.css);
+@import url(../css/component/wrap/wrap.css);
+@import url(../css/component/line/line.css);
+@import url(../css/component/button/button.css);
+@import url(../css/component/pagination/pagination.css);
+
+/* app */
+@import url(../css/app/app.css);
+
+/* utils */
+@import url(../css/utils/utils.css);
+
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*  */

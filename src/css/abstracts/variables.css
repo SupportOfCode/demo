@@ -1,0 +1,22 @@
+:root {
+    /* grid  */
+    --grid: 12;
+    --grid-container-width: 1550px;
+    --grid-container-gap-for-pc: 14px;
+    --grid-container-gap-for-mobile: 23px;
+    --grid-col-gap-vertical: 28px;
+    --grid-col-gap-horizontal: 28px;
+    --grid-col-gap-vertical-for-mobile: 14px;
+    --grid-col-gap-horizontal-for-mobile: 14px;
+
+    /* img banner */
+    --img-banner2: url("../../../img/banner/banner2.png");
+    --img-banner3: url("../../../img/banner/banner3.png");
+
+    /* color */
+    --primary-color: #0F61FF;
+
+    /* header */
+    --padding-horizontal-header-item: 14px;
+    --padding-vertical-header-item: 10px;
+}

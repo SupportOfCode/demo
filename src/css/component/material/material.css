@@ -1,0 +1,18 @@
+.logo-main {
+    min-width: 141px;
+    min-height: 25px;
+    flex-shrink: 0;
+}
+
+.icon-social {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.icon-right {
+    width: 24px;
+    height: 24px;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+}

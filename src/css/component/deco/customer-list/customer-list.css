@@ -1,8 +1,7 @@
 .customer {
-    min-height: 564px;
+    padding-bottom: 464px;
     /* background-color: gray; */
     position: relative;
-    min-width: 80vw;
 }
 
 .customer__title {

@@ -7,6 +7,10 @@
 /* base */
 @import url(../css/base/reset.css);
 
+/* test */
+@import url(../css/test/test.css);
+
+
 /* component */
 @import url(../css/component/header/header.css);
 @import url(../css/component/banner/banner.css);

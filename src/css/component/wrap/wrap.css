@@ -16,7 +16,5 @@
 
 
 @media (max-width: 490px) {
-    .wrap--sellers {
-        padding: 48px 23px 64px 22px;
-    }
+    .wrap--sellers {}
 }

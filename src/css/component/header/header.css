@@ -11,8 +11,8 @@
 }
 
 .header__left {
-    width: 160px;
-    height: 28px;
+    max-width: 160px;
+    max-height: 28px;
     margin-left: 54px;
     display: flex;
     align-items: center;
@@ -89,6 +89,23 @@
     color: white;
     font-size: 10px;
     font-style: normal;
+}
+
+@media (max-width: 1366px) {
+    .header__right {
+        max-width: 517px;
+        height: 47px;
+    }
+
+    .header__item-link {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+
+    .header__item-img {
+        width: 12px;
+        height: 12px;
+    }
 }
 
 /* Mobile */

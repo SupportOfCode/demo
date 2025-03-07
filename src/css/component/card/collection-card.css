@@ -16,4 +16,9 @@
     .colection-card__title {
         color: white;
     }
+
+    .colection-card__img {
+        min-height: 380px;
+        border-radius: 20px;
+    }
 }

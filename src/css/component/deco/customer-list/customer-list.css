@@ -122,6 +122,12 @@
     letter-spacing: -0.34px;
 }
 
+@media (max-width: 1366px) {
+    .customer__item--message {
+        max-width: 400px;
+    }
+}
+
 
 @media (max-width: 490px) {
     .customer__item--2 {

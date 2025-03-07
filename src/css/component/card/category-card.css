@@ -37,7 +37,17 @@
         border-radius: 20px;
         min-height: 44vh;
         background-color: white;
-        margin: 26px;
+        margin: 14px 10px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    }
+
+    .category-card:nth-child(2) {
+        border-radius: 20px;
+        background-color: unset;
+        border: none;
+    }
+
+    .category-card__title {
+        padding: 30px;
     }
 }

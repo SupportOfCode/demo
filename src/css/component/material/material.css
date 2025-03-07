@@ -16,3 +16,12 @@
     /* transform: rotate(-90deg); */
     flex-shrink: 0;
 }
+
+/* Mobile */
+@media (max-width: 490px) {
+    .logo-main {
+        width: 101px;
+        height: 18px;
+    }
+
+}

@@ -43,3 +43,9 @@
 .various-color__wrap:nth-child(4)>.various-color__item {
     background-color: #ec978c;
 }
+
+@media (max-width: 1366px) {
+    .various-color {
+        padding: 14px 0;
+    }
+}

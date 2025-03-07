@@ -5,8 +5,11 @@
 .banner--main {}
 
 
-.banner__img--full-h {
-    min-height: 100vh;
+.banner__img--full {
+    /* min-height: 100vh; */
+    /* test */
+    height: 100vh;
+    width: 100vw;
 }
 
 .banner__content {
@@ -65,6 +68,13 @@
     font-weight: 500;
     line-height: normal;
     position: absolute;
+}
+
+@media (max-width: 1366px) {
+    .banner__text--main {
+        font-size: 150px;
+        font-weight: 500;
+    }
 }
 
 @media (max-width: 490px) {

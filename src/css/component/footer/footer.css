@@ -19,7 +19,7 @@
 
 .footer__description {
     display: -webkit-box;
-    width: 375px;
+    max-width: 375px;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 5;
     overflow: hidden;
@@ -64,6 +64,8 @@
     padding: 30px 25px;
 }
 
+.footer__content-left {}
+
 .footer__form {
     position: relative;
 }
@@ -85,4 +87,27 @@
 .footer__input::placeholder {
     color: white;
     opacity: 0.6;
+}
+
+@media (max-width: 480px) {
+    .footer__top {
+        padding: 42px 23px 16px
+    }
+
+    .footer__content {
+        flex-direction: column;
+        gap: 55px;
+    }
+
+    .footer__content-right {
+        gap: unset;
+        justify-content: space-between;
+    }
+
+    .footer__input {
+        padding: 21px 70px 23px 23px;
+        font-size: 30px;
+    }
+
+    .footer__description {}
 }

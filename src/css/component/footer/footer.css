@@ -93,11 +93,59 @@
     opacity: 0.6;
 }
 
-.footer__bottom {}
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .footer__list-link {
     display: flex;
+    gap: 8px;
+    padding-left: 46px;
 }
+
+.footer__item-link {
+    color: var(--Text, #FFF);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 142%;
+}
+
+.footer__item-link:nth-child(2)::before {
+    content: "•";
+    margin-right: 7px;
+    color: white;
+    opacity: 0.6;
+    font-size: 16px;
+}
+
+.footer__pay {
+    display: flex;
+    align-items: center;
+}
+
+.footer__pay-list {
+    display: flex;
+}
+
+.footer__pay-item {
+    padding: 0 3px;
+    min-width: 34px;
+    min-height: 24px;
+    object-fit: cover;
+}
+
+.footer__currency-item {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    padding: 0 6px;
+    /* 19.6px */
+}
+
+
 
 @media (max-width: 480px) {
     .footer__top {
@@ -119,5 +167,21 @@
         font-size: 30px;
     }
 
-    .footer__description {}
+    .footer__list-link {
+        padding-left: 0;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 29px;
+    }
+
+    .footer__pay-list {
+        display: block;
+    }
+
+    .footer__currency {
+        padding-top: 11px;
+    }
 }

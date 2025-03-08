@@ -1,8 +1,32 @@
+.pagination--page-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination__item {}
+
+.pagination__item--page-shop {
+    color: var(--primary-color);
+    padding: 18px;
+    border-radius: 12px;
+}
+
+.pagination__item--active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.pagination__item--end {
+    opacity: 0.4;
+}
+
 .pagination__item--fill {
     width: 36px;
     height: 36px;
     background-color: #F6F6F6;
     border-radius: 50%;
-    margin-top: 30px;
-    margin-right: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+
 }

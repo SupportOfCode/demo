@@ -24,9 +24,11 @@
 @import url(../css/component/wrap/wrap.css);
 @import url(../css/component/line/line.css);
 @import url(../css/component/button/button.css);
+@import url(../css/component/sort/sort.css);
 @import url(../css/component/pagination/pagination.css);
 @import url(../css/component/material/material.css);
 @import url(../css/component/footer/footer.css);
+@import url(../css/component/blog/blog.css);
 
 /* app */
 @import url(../css/app/app.css);

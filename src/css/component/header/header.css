@@ -138,6 +138,12 @@
         justify-content: space-between;
     }
 
+    .header__item-icon--quantity::after {
+        width: 14px;
+        height: 14px;
+        font-style: 8px;
+    }
+
     .header__sub-icon {
         display: block;
         padding: 16px;

@@ -12,6 +12,7 @@
     width: 100vw;
 }
 
+
 .banner__content {
     position: absolute;
     top: 50%;
@@ -36,6 +37,16 @@
     left: 0;
     font-weight: 500;
     letter-spacing: -17.04px;
+}
+
+.banner__text--main-shop {
+    color: #fff;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 104%;
+    /* letter-spacing: -6px; */
+    bottom: 72px;
 }
 
 /* banner seller */
@@ -128,5 +139,20 @@
         top: 0;
         text-align: left;
         padding: 33px 42px;
+    }
+
+    /* page shop */
+
+    .banner__img--page-shop {
+        width: 100vw;
+        height: auto;
+    }
+
+    .banner__text--main-shop {
+        bottom: 0px;
+        left: 20px;
+        font-size: 50px;
+        line-height: 104%;
+        letter-spacing: -3px;
     }
 }

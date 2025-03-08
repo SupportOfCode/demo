@@ -2,7 +2,17 @@
     padding: 48px 0 64px 0;
 }
 
-.wrap--sellers {}
+.wrap--search-blog {
+    background-color: #f7f7f8;
+}
+
+.wrap--sort {
+    padding-bottom: 0;
+}
+
+.wrap--blog {
+    padding-top: 0;
+}
 
 .wrap--category {
     background-color: #F6F6F6;
@@ -16,5 +26,11 @@
 
 
 @media (max-width: 490px) {
-    .wrap--sellers {}
+    .wrap--sort {
+        padding-top: 0;
+    }
+
+    .wrap-product-all {
+        padding-top: 0;
+    }
 }

@@ -19,6 +19,16 @@
     padding: 0;
 }
 
+.px-7 {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+}
+
+.py-22 {
+    padding-top: 22px !important;
+    padding-bottom: 22px !important;
+}
+
 /* background */
 .bg-gray {
     background-color: #F6F6F6;
@@ -52,4 +62,17 @@
 /* color */
 .c-white {
     color: white;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+
+
+/* fading */
+.fading {
+    mask-image: linear-gradient(to right,
+            rgba(0, 0, 0, 1) 1%,
+            rgba(0, 0, 0, 0) 60%);
 }
